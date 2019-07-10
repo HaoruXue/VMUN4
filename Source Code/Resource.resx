@@ -1,0 +1,564 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="h0P1Eng" xml:space="preserve">
+    <value>Dais uses Dais Consle to change information displayed in Main Page.In order to properly set your monitor, please follow the following procedures:
+
+1. Enter conference name, committee name and topic in Main Page.
+
+2. Use a cable to connect the computer to a second monitor, or projector. Make sure the second monitor (or projector) can be detected in the display settings of the computer.
+
+3. Press "Windows"(A flag on the bottom corner of your keyboard) and "P" keys together, and then select "Extend" Mode (usually the third one) in the menu. (Only works when a second monitor has been detected) This settings would turn the second monitor into an extended screen on the right of the first monitor.
+
+4. Finally, drag Main Page towards the right edge of your computer screen, and you will see it coming out of the left edge of your second monitor (or projector). Maximize Main Page in your second monitor (or projector).</value>
+  </data>
+  <data name="h0P1SimChn" xml:space="preserve">
+    <value>主席团使用主席团控制台窗口来控制主页上显示的信息。为了正确设置您的显示器，请按照以下步骤设置：
+
+1. 在主页中输入会议名称、委员会名称和议题。
+
+2. 用数据线连接第二屏幕或投影仪。确保第二屏幕可以在电脑的显示设置中被检测到。
+
+3. 按下“Windows”（键盘下方角落的旗帜）和“P”键，在菜单中选择“扩展”（通常是第三个，仅在第二屏幕被检测到时有效）。这会使得第二屏幕变成第一屏幕右侧的扩展。
+
+4. 最后，拖动主页至屏幕右侧边缘，你会看见它从第二屏幕左侧边缘出现。 在第二屏幕中最大化主页。</value>
+  </data>
+  <data name="h0P1TEng" xml:space="preserve">
+    <value>Second Monitor</value>
+  </data>
+  <data name="h0P1TSimChn" xml:space="preserve">
+    <value>第二屏幕</value>
+  </data>
+  <data name="h0P2Eng" xml:space="preserve">
+    <value>Recommended screen resolution for Dais Console (i.e. Monitor of Dais) is 1920 * 1080, or 1366 * 768.Lowest Resolution for Main Page (i.e. Monitor for delegates) is 1024 * 768.The software is capable of adjusting to different resolutions. If a display problem occurs, please turn to the displaying settings of your computer to modify the scale percentage. (150%, 125%, 100%, etc.)</value>
+  </data>
+  <data name="h0P2SimChn" xml:space="preserve">
+    <value>主席团控制台（主席团屏幕）的推荐分辨率为 1920 * 1080，或 1366 * 768。主页（代表屏幕）的最低分辨率为 1024 * 768。本软件可自行适应不同分辨率，但若出现显示问题，请尝试在电脑的显示设置中调整缩放百分比（如150%，125% 或 100%）。</value>
+  </data>
+  <data name="h0P2TEng" xml:space="preserve">
+    <value>Screen Resolution</value>
+  </data>
+  <data name="h0P2TSimChn" xml:space="preserve">
+    <value>屏幕分辨率</value>
+  </data>
+  <data name="h0P3Eng" xml:space="preserve">
+    <value>If you do not have access to a second monitor, an alternative solution is to display Dais Console to the delegates.</value>
+  </data>
+  <data name="h0P3SimChn" xml:space="preserve">
+    <value>若您无法使用第二屏幕，一个替代的方案是向代表展示主席团控制台。</value>
+  </data>
+  <data name="h0P3TEng" xml:space="preserve">
+    <value>Solo Monitor</value>
+  </data>
+  <data name="h0P3TSimChn" xml:space="preserve">
+    <value>单独显示器</value>
+  </data>
+  <data name="h0TEng" xml:space="preserve">
+    <value>Monitor Settings</value>
+  </data>
+  <data name="h0TSimChn" xml:space="preserve">
+    <value>显示器设置</value>
+  </data>
+  <data name="h10p1eng" xml:space="preserve">
+    <value>Click on "Data and File" in the left column to access File Management. You can create, modify or delete a record of a file submitted, including file name, location, sponsors and signatories.</value>
+  </data>
+  <data name="h10p1schn" xml:space="preserve">
+    <value>单击左栏中的“文件与数据”以访问文件管理。您可以创建、更改或删除被提交文件的记录，包括文件名、文件位置、起草国和附议国。</value>
+  </data>
+  <data name="h10p1teng" xml:space="preserve">
+    <value>File Management System</value>
+  </data>
+  <data name="h10p1tschn" xml:space="preserve">
+    <value>文件管理系统</value>
+  </data>
+  <data name="h10teng" xml:space="preserve">
+    <value>File Management</value>
+  </data>
+  <data name="h10tschn" xml:space="preserve">
+    <value>文件管理</value>
+  </data>
+  <data name="h11p1eng" xml:space="preserve">
+    <value>After setting the time, click on Run or Pause to start or pause the timer. Click on Reset to set the timer back to its original value. Click on Clear to clear the timer.</value>
+  </data>
+  <data name="h11p1schn" xml:space="preserve">
+    <value>设置时间后，单击运行或暂停以开始或暂停计时器。单击重置以使计时器回到初始值。单击清除以使计时器归零。</value>
+  </data>
+  <data name="h11p1teng" xml:space="preserve">
+    <value>Timer</value>
+  </data>
+  <data name="h11p1tschn" xml:space="preserve">
+    <value>计时器</value>
+  </data>
+  <data name="h11p2eng" xml:space="preserve">
+    <value>Reminder is used to keep a memo of a suspended event, or important notices. Click on clear to wipe it out.</value>
+  </data>
+  <data name="h11p2schn" xml:space="preserve">
+    <value>备忘录可用于记录挂起的事件或重要通知。单击清除以清空。</value>
+  </data>
+  <data name="h11p2teng" xml:space="preserve">
+    <value>Reminder</value>
+  </data>
+  <data name="h11p2tschn" xml:space="preserve">
+    <value>备忘录</value>
+  </data>
+  <data name="h11teng" xml:space="preserve">
+    <value>Timer and Reminder</value>
+  </data>
+  <data name="h11tschn" xml:space="preserve">
+    <value>计时器与备忘录</value>
+  </data>
+  <data name="h1p1eng" xml:space="preserve">
+    <value>Language is selected when launching the software. Both English and Simplified Chinese are supported. To switch the language, save the conference progress and restart the software.
+
+Please notice that when saving into, or reading from Text Files under English language environment, Chinese characters may be displayed as digital gibberish. It is necessary to choose the corresponding language environment.</value>
+  </data>
+  <data name="h1p1schn" xml:space="preserve">
+    <value>语言可在程序启动时选择。本程序支持英文与简体中文。如需切换语言，保存会议进度后重新启动软件。
+
+请留意，在英文环境下读取或写入文本文档时，中文字符可能会成为乱码。请选取对应的语言环境。</value>
+  </data>
+  <data name="h1p1teng" xml:space="preserve">
+    <value>Select a Language</value>
+  </data>
+  <data name="h1p1tschn" xml:space="preserve">
+    <value>选择语言</value>
+  </data>
+  <data name="h1teng" xml:space="preserve">
+    <value>Languages</value>
+  </data>
+  <data name="h1tsimchn" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="h2p1eng" xml:space="preserve">
+    <value>Please create "Country.txt" under the software path, and enter all countries in alphabetical order line by line. Do not leave any blank rows.</value>
+  </data>
+  <data name="h2p1simchn" xml:space="preserve">
+    <value>请在软件根目录下创建“Country.txt”并逐行输入国家名。请务必不要留下空行。</value>
+  </data>
+  <data name="h2p1teng" xml:space="preserve">
+    <value>Country List</value>
+  </data>
+  <data name="h2p1tsimchn" xml:space="preserve">
+    <value>国家列表</value>
+  </data>
+  <data name="h2p2eng" xml:space="preserve">
+    <value>If you have preserved conference progress, it will be reloaded into the software next time when launching it. The software uses Country.txt,  File.txt, Event.txt and Data.txt under its startup path to save the records. To ensure the file management and data system functioning correctly, DO NOT modify or delete these text files. To start a new record, simply move these text files elsewhere, or start the program in another path.</value>
+  </data>
+  <data name="h2p2simchn" xml:space="preserve">
+    <value>若您在使用软件时保存了会议进度，它将会在下次启动软件时被重新加载。软件使用其根目录下的 Country.txt, File.txt，Event.txt 和 Data.txt 保存这些记录。为了使您能够正常使用文件管理和数据系统，请勿修改或删除这些文本文档。如需开始新的记录，请移除这些文本文档，或在其他目录下启动程序。</value>
+  </data>
+  <data name="h2p2teng" xml:space="preserve">
+    <value>Load Data</value>
+  </data>
+  <data name="h2p2tsimchn" xml:space="preserve">
+    <value>加载数据</value>
+  </data>
+  <data name="h2teng" xml:space="preserve">
+    <value>Load Countries and Data</value>
+  </data>
+  <data name="h2tsimchn" xml:space="preserve">
+    <value>加载国家与数据</value>
+  </data>
+  <data name="h3p1eng" xml:space="preserve">
+    <value>To raise a motion, click on "Motion" in the left column. Make sure no other event is underway. (e.g. ticking speaker's list, roll call, voting, or another motion) Enter all information required to form a motion, and then you are given the option to display the motion in detail to the delegates by clicking on the "Display to Screen" button at the bottom.</value>
+  </data>
+  <data name="h3p1schn" xml:space="preserve">
+    <value>单击左栏中的“动议”以提起动议。确保无其他事项正在进行，如计时中的主发言名单、点名、表决或其他动议。输入所有构成动议的必要信息。您可以单击底部的“展示到屏幕”按钮以将动议细节展示给代表。</value>
+  </data>
+  <data name="h3p1teng" xml:space="preserve">
+    <value>Enter all Information</value>
+  </data>
+  <data name="h3p1tschn" xml:space="preserve">
+    <value>输入所有信息</value>
+  </data>
+  <data name="h3p2eng" xml:space="preserve">
+    <value>Click on "Pass" to pass a motion, and then you will be directed to different pages depending on the motion type. Motions that are "passed" or "failed" will all be kept in conference record.</value>
+  </data>
+  <data name="h3p2schn" xml:space="preserve">
+    <value>单击“通过”以通过动议，然后您将被引导至处理相应动议的页面。“通过”或“未通过”的动议均会被会议记录保存。</value>
+  </data>
+  <data name="h3p2teng" xml:space="preserve">
+    <value>Prepare to Implement</value>
+  </data>
+  <data name="h3p2tschn" xml:space="preserve">
+    <value>准备进行动议</value>
+  </data>
+  <data name="h3teng" xml:space="preserve">
+    <value>Raise a Motion</value>
+  </data>
+  <data name="h3tschn" xml:space="preserve">
+    <value>提起动议</value>
+  </data>
+  <data name="h4p1eng" xml:space="preserve">
+    <value>The speaking time and total time of a moderated caucus was determined when a relative motion was passed. Then the page of inviting speakers will appear. Choose from the list on the left and click on "Add". However, a much more efficient alterative is to search the first letter of the speaker invited, then use Up and Down keys to select, and press Enter key to add. To remove a speaker, select it in the list of speakers and click on "Remove". When you are satisfied with the list, use buttons on the top-left corner (Start, Pause, Next and Expire) to moderate the caucus.</value>
+  </data>
+  <data name="h4p1schn" xml:space="preserve">
+    <value>有主持核心措施的发言时长和总时长在提起相关动议时即被决定。随后邀请发言人的页面将会出现。在左侧的列表中选择发言人并单击“添加”。然而，一个更有效率的方案是在搜索栏中输入国家名，并使用上下键选择，最终按下回车以添加。如需移除发言人，在发言人名单中选择，然后单击“移除”。当名单完成后，使用左上角的按钮（开始、暂停、下一位和结束）以主持磋商。</value>
+  </data>
+  <data name="h4p1teng" xml:space="preserve">
+    <value>Preparations</value>
+  </data>
+  <data name="h4p1tschn" xml:space="preserve">
+    <value>准备工作</value>
+  </data>
+  <data name="h4p2eng" xml:space="preserve">
+    <value>Click on "Start" to begin or resume countdown. Click on "Pause" to pause countdown. Click on "Next" to move on to the next speaker on the list. Click on "Expire" to expire the motion at once.
+
+Multi-task is supported in the progress. For example, you are able to check speaker's list, or attendance status in relative pages while the moderated caucus is underway. Buttons on the top-left corner will still be functioning. When you want to return to the speaker-inviting page, click on "Back" to return to homepage, and Select the moderated caucus in dashboard. Delegates who have spoken or is speaking could not be removed from the list.</value>
+  </data>
+  <data name="h4p2schn" xml:space="preserve">
+    <value>单击“开始”以开始或继续计时。单击“暂停”以暂停计时。单击“下一位”以邀请下一位发言人。单击“结束”以立即结束当前动议。
+
+在这个过程中，您可以继续处理其他会议事务，如在相关页面中查看主发言名单或浏览出席状况。左上角的按钮仍然可以正常工作。如需返回邀请发言人的页面，单击“返回”以回到主页，然后在选择正在进行的有主持核心磋商。已发言或正在发言的代表不能从名单中被移除。</value>
+  </data>
+  <data name="h4p2teng" xml:space="preserve">
+    <value>In Progress</value>
+  </data>
+  <data name="h4p2tschn" xml:space="preserve">
+    <value>进行中</value>
+  </data>
+  <data name="h4p3eng" xml:space="preserve">
+    <value>When the list of speakers is over, the program will give the number of more delegates allowed to speak, based on the total time left and the speaking time. You may invite more speakers, or expire the motion at once. If the list is over again, the motion is automatically expired. Delegates spoken in the motion will be recorded.</value>
+  </data>
+  <data name="h4p3schn" xml:space="preserve">
+    <value>当发言人名单结束后，程序会给出剩余总时长和发言时长所允许的发言人数。您可以邀请更多的代表发言，或立即结束动议。当名单第二次结束时，动议自动结束。在此动议中发言的代表将会被记录。</value>
+  </data>
+  <data name="h4p3teng" xml:space="preserve">
+    <value>Expiration</value>
+  </data>
+  <data name="h4p3tschn" xml:space="preserve">
+    <value>结束</value>
+  </data>
+  <data name="h4teng" xml:space="preserve">
+    <value>Moderated Caucus</value>
+  </data>
+  <data name="h4tschn" xml:space="preserve">
+    <value>有主持核心磋商</value>
+  </data>
+  <data name="h5p1eng" xml:space="preserve">
+    <value>Only total time is given in unmoderated caucus or free debate. Click on "Start" to begin or resume timing. Click on "Pause" to pause timing. Click on "Expire" to expire the motion at once.
+
+Multi-task is supported in the progress, but no new event should start until the motion is expired.</value>
+  </data>
+  <data name="h5p1schn" xml:space="preserve">
+    <value>只有总时长会在自由磋商和自由辩论中被显示。单击“开始”以开始或继续计时。单击“暂停”以暂停计时。单击“结束”以立即结束当前动议。
+
+在这个过程中，您可以继续处理其他会议事务，但不能开始新事项，直到当前动议结束。</value>
+  </data>
+  <data name="h5p1teng" xml:space="preserve">
+    <value>Do this Motion</value>
+  </data>
+  <data name="h5p1tschn" xml:space="preserve">
+    <value>进行此动议</value>
+  </data>
+  <data name="h5teng" xml:space="preserve">
+    <value>Unmoderated Caucus and Free Debate</value>
+  </data>
+  <data name="h5tschn" xml:space="preserve">
+    <value>自由磋商和自由辩论</value>
+  </data>
+  <data name="h6p1eng" xml:space="preserve">
+    <value>To set up speaker's list, Click on "Speaker's List" on the left column, or in the dashboard. Choose from the list on the left and click on "Add". However, a much more efficient alterative is to search the first letter of the speaker, then use Up and Down keys to select, and press Enter key to add. To remove a speaker, select it in the speaker's list and click on "Remove". You are also able to adjust speaking time.</value>
+  </data>
+  <data name="h6p1schn" xml:space="preserve">
+    <value>单击正在进行的或左栏中的“主发言名单”以确立主发言名单。在左侧的列表中选择发言人并单击“添加”。然而，一个更有效率的方案是在搜索栏中输入国家名，并使用上下键选择，最终按下回车以添加。如需移除发言人，在主发言名单中选择，然后单击“移除”。您也可以调整发言时间。</value>
+  </data>
+  <data name="h6p1teng" xml:space="preserve">
+    <value>Set up a List</value>
+  </data>
+  <data name="h6p1tschn" xml:space="preserve">
+    <value>确立名单</value>
+  </data>
+  <data name="h6p2eng" xml:space="preserve">
+    <value>When you are satisfied with the list, click on "Resume List" to start or resume the speaker's list. use buttons on the top-left corner (Start, Pause, and Next) to time. Delegates spoken will be removed from the list, and you can keep inviting speakers as well.
+
+If you want to start a new event, such as raising a motion or voting, you must pause the timer first. When any other event is started, the speaker's list will be automatically paused, and you will need to click on "Resume List" again after the event is finished to go back to the speaker's list.</value>
+  </data>
+  <data name="h6p2schn" xml:space="preserve">
+    <value>当名单完成后，单击“继续名单”以开始或继续主发言名单。使用左上角的按钮（开始、暂停和下一位）以计时。发言完毕的代表会被移出名单，您也可以继续添加发言人。
+
+若您欲开始新事项，如动议或投票，您应当先暂停计时。当任何其他事项开始时，主发言名单会被自动暂停。您将会需要重新单击“继续名单”以回到主发言名单。</value>
+  </data>
+  <data name="h6p2teng" xml:space="preserve">
+    <value>Keep Time</value>
+  </data>
+  <data name="h6p2tschn" xml:space="preserve">
+    <value>计时</value>
+  </data>
+  <data name="h6teng" xml:space="preserve">
+    <value>Speaker's List</value>
+  </data>
+  <data name="h6tschn" xml:space="preserve">
+    <value>主发言名单</value>
+  </data>
+  <data name="h7p1eng" xml:space="preserve">
+    <value>When no other event is underway, click on "Roll Call" to go to the attendance status page. Click on "Start Roll Call" to conduct a roll call.
+
+Multi-task is supported in the progress, but no new event should start until roll call is completed or canceled.</value>
+  </data>
+  <data name="h7p1schn" xml:space="preserve">
+    <value>当没有其他事项正在进行时，单击“点名程序”以访问出席情况页面。单击“开始点名”以进行点名。
+
+在这个过程中，您可以继续处理其他会议事务，但不能开始新事项，直到点名完成或取消。</value>
+  </data>
+  <data name="h7p1teng" xml:space="preserve">
+    <value>Start Roll Call</value>
+  </data>
+  <data name="h7p1tschn" xml:space="preserve">
+    <value>开始点名</value>
+  </data>
+  <data name="h7p2eng" xml:space="preserve">
+    <value>After roll call begins, choose the attendance status of each delegate. To modify the status of delegates called, select in the list and make changes. When all delegates have been called, roll call is completed.</value>
+  </data>
+  <data name="h7p2schn" xml:space="preserve">
+    <value>点名程序开始后，依次选择各代表的出席情况。若需修改已点名的代表的出席情况，请直接在列表中选择修改。当所有代表都被点到后，点名程序即终止。</value>
+  </data>
+  <data name="h7p2teng" xml:space="preserve">
+    <value>Do Roll Call</value>
+  </data>
+  <data name="h7p2tschn" xml:space="preserve">
+    <value>进行点名</value>
+  </data>
+  <data name="h7p3eng" xml:space="preserve">
+    <value>The software uses the following formulas to calculate majorities, only for reference:
+
+Simple Majority: (Present + 1) / 2, rounded up to the nearest integer;
+
+Absolute Majority: Present * (2 / 3), rounded up to the nearest integer;
+
+20% of the Number: Present * 20%, rounded up to the nearest integer;
+
+Attendance Rate: Present / All, rounded down to the nearest integer.</value>
+  </data>
+  <data name="h7p3schn" xml:space="preserve">
+    <value>本软件使用以下公式以计算多数，仅供参考：
+
+简单多数：（出席 + 1）/ 2，向上取整；
+
+绝对多数：出席 * （2 / 3），向上取整；
+
+百分之二十数：出席 * 20%，向上取整；
+
+出席率：出席 / 所有，向下取整。</value>
+  </data>
+  <data name="h7p3teng" xml:space="preserve">
+    <value>Majorities</value>
+  </data>
+  <data name="h7p3tschn" xml:space="preserve">
+    <value>多数</value>
+  </data>
+  <data name="h7teng" xml:space="preserve">
+    <value>Roll Call</value>
+  </data>
+  <data name="h7tschn" xml:space="preserve">
+    <value>点名</value>
+  </data>
+  <data name="h8p1eng" xml:space="preserve">
+    <value>When no other event is underway, click on "Voting" to go to the voting page. Enter the name of the paper to vote, and click on "Start Voting" to conduct a voting.
+
+Multi-task is supported in the progress, but no new event should start until voting is completed or canceled.</value>
+  </data>
+  <data name="h8p1schn" xml:space="preserve">
+    <value>当没有其他事项正在进行时，单击“投票程序”以访问投票页面。输入要表决的文件名，然后单击“开始投票”以进行投票。
+
+在这个过程中，您可以继续处理其他会议事务，但不能开始新事项，直到投票完成或取消。</value>
+  </data>
+  <data name="h8p1teng" xml:space="preserve">
+    <value>Start Voting</value>
+  </data>
+  <data name="h8p1tschn" xml:space="preserve">
+    <value>开始投票</value>
+  </data>
+  <data name="h8p2eng" xml:space="preserve">
+    <value>In the first round of voting, the options of Yes, No, Pass, and Abstain are provided. Choose the preference of each country.</value>
+  </data>
+  <data name="h8p2schn" xml:space="preserve">
+    <value>在第一轮投票中，有赞成、反对、过或弃权可供选择。依次选择每个国家的意向。</value>
+  </data>
+  <data name="h8p2teng" xml:space="preserve">
+    <value>First Round</value>
+  </data>
+  <data name="h8p2tschn" xml:space="preserve">
+    <value>第一轮</value>
+  </data>
+  <data name="h8p3eng" xml:space="preserve">
+    <value>Click on "Start 2nd Round" to move on to the second round of voting. Only Yes and No are available, and only delegates voted Pass in the first round are allowed to vote in this round.</value>
+  </data>
+  <data name="h8p3schn" xml:space="preserve">
+    <value>单击“开始二轮投票”以继续进行第二轮投票。只有在第一轮中投“过”的代表能够在本轮投票，且只有“赞成”或“反对”可供选择。</value>
+  </data>
+  <data name="h8p3teng" xml:space="preserve">
+    <value>Second Round</value>
+  </data>
+  <data name="h8p3tschn" xml:space="preserve">
+    <value>第二轮</value>
+  </data>
+  <data name="h8p4eng" xml:space="preserve">
+    <value>Click on "Confirm Result" to end the voting. Number of Yes, No and Abstain votes will be displayed, as well as Favor Rate, which is calculated by Yes / (Yes + No), rounded down to the nearest integer. Please announce the result according to rules and procedures.</value>
+  </data>
+  <data name="h8p4schn" xml:space="preserve">
+    <value>单击“确认投票结果”以结束投票。赞成、反对和弃权的人数以及赞成率（赞成 / （赞成 + 反对），向下取整）会被展示。请自行按照议事规则宣布文件是否通过。</value>
+  </data>
+  <data name="h8p4teng" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="h8p4tschn" xml:space="preserve">
+    <value>结果</value>
+  </data>
+  <data name="h8teng" xml:space="preserve">
+    <value>Voting Procedure</value>
+  </data>
+  <data name="h8tschn" xml:space="preserve">
+    <value>投票程序</value>
+  </data>
+  <data name="h9p1eng" xml:space="preserve">
+    <value>Click on "Data and File" in the left column. You can save or output conference progress in the data section, including events, delegate data, and file records.
+
+Conference progress is saved in Country.txt, Event.txt, File.txt and Data.txt under the application startup path, and will be reloaded into the software next time when launching it. To avoid any malfunction, DO NOT modify these text files. To start a new record, simply remove these files (except Country.txt), or move the program to another path, and restart it. If you've changed country.txt, delete data.txt and file.txt to avoid any bug or mismatch.</value>
+  </data>
+  <data name="h9p1schn" xml:space="preserve">
+    <value>单击左栏中的“文件与数据”。您可以在数据部分中保存或导出会议进程，包括动态、代表数据和文件记录。
+
+会议进度被保存在软件根目录下的 Country.txt、Event.txt、File.txt 和 Data.txt 中，并会在下次启动软件时被加载。为防止错误的发生，请勿修改任何任何一个文本文档。若需重新开始记录，只需移除这些文档（Country.txt 除外），或移动软件至新目录并重新启动。若您对 Country.txt 进行了更改，请删除 data.txt 和 file.txt 以避免任何Bug或数据错位。</value>
+  </data>
+  <data name="h9p1teng" xml:space="preserve">
+    <value>Save Conference Progress</value>
+  </data>
+  <data name="h9p1tschn" xml:space="preserve">
+    <value>保存会议进度</value>
+  </data>
+  <data name="h9p2eng" xml:space="preserve">
+    <value>Conference progress can also be output in human-readable contents, but the output record cannot be reloaded.</value>
+  </data>
+  <data name="h9p2schn" xml:space="preserve">
+    <value>会议进度也可被导出为人类可读的内容，但导出的记录不能被重新加载。</value>
+  </data>
+  <data name="h9p2teng" xml:space="preserve">
+    <value>Output Conference Progress</value>
+  </data>
+  <data name="h9p2tschn" xml:space="preserve">
+    <value>导出会议进度</value>
+  </data>
+  <data name="h9teng" xml:space="preserve">
+    <value>Save and Output</value>
+  </data>
+  <data name="h9tschn" xml:space="preserve">
+    <value>保存与导出</value>
+  </data>
+</root>
