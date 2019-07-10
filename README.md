@@ -3,22 +3,22 @@ This is a Model UN conference software designed for general American Model UN pr
 Platform: Windows (.Net 4.0)
 Language: English, Simplified Chinese, C# (well)
 
-##First Time
+## First Time
 1. Download VMUN 4.exe.
 2. Creat a "Country.txt"file in the application path and enter seats line by line (Do not leave empty rows).
 3. Launch.
 4. Connet to a projector in extension mode, and drag the display page to the second desktop for the delegates to see.
 5. To save conference progress, go to File and Data, and hit save. This will creat three text files in the application path. Modify with caution.
 
-##Known Bugs
+## Known Bugs
 1. Language glitch: Chinese may be displayed as random characters. Change the encoding of your text file to UTF-8.
 2. The first motion widget (Motion I) may change title
 
-##Defections
+## Defections
 1. Crappy code everywhere (Like... three months of C# experience)
 2. Crappy structure (Model-View-Controller hell)
 
-##Future Version Possibilities
+## Future Version Possibilities
 1. Use WPF to replace Windows Forms
 2. Web App for using on multi-platform
 3. Or just... a Mac version if I can invest myself one
