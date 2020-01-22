@@ -14,10 +14,6 @@ Language: English, Simplified Chinese, C# (well)
 1. Language glitch: Chinese may be displayed as random characters. Change the encoding of your text file to UTF-8.
 2. The first motion widget (Motion I) may change title
 
-## Defections
-1. Crappy code everywhere (Like... three months of C# experience)
-2. Crappy structure (Model-View-Controller hell)
-
 ## Future Version Possibilities
 1. Use WPF to replace Windows Forms
 2. Web App for using on multi-platform
@@ -26,3 +22,4 @@ Language: English, Simplified Chinese, C# (well)
 5. Extensible motion types
 6. Pro UI design
 7. Rules of Procedure importation
+8. MVI model enforced
